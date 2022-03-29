@@ -5,3 +5,8 @@ add this line in config object of composer.json file
 run php artisan config:cache
 
 then run composer dump-autoload in terminal
+
+
+DB_DATABASE=u5440919_healthcare
+DB_USERNAME=u5440919_laravel
+DB_PASSWORD=maret1099
