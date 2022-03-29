@@ -1,0 +1,7 @@
+add this line in config object of composer.json file
+
+"platform-check": false
+
+run php artisan config:cache
+
+then run composer dump-autoload in terminal
