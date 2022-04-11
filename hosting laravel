@@ -8,6 +8,8 @@ then run composer dump-autoload in terminal
 
 https://stackoverflow.com/questions/47080756/laravel-file-put-contents-error-on-shared-hosting
 
+https://stackoverflow.com/questions/45825889/how-to-create-laravel-storage-symbolic-link-for-production-or-sub-domain-system    symlink
+
 
 DB_DATABASE=u5440919_healthcare
 DB_USERNAME=u5440919_laravel
