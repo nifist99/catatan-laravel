@@ -1,0 +1,33 @@
+1 . bukak file composer json , tambahkan di config = platform-check": false
+ "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "platform-check":false
+    },
+    
+   2. lalu jalankan php artisan config:cache
+   3. composer dump-autoload
+   
+   jika di atas masih error atau kurang , biasanya ada error file_put session ini masalah di saat pembuiltan di laptop/lokal
+   
+   1. masuk ke boostrap/cache lalu hapus config.php file ini berisi sesion kita saat pembuiltan di lokal, hapus aja biar tidak terbaca 2 sesson.
+   
+   lalu pindahkan file public di laravel ke public_html hosting, lalu ubah file index.php ke folder laravel kita di home hosting
+   
+   2. masukan database di .env setting
+   
+   masalah selanjutnya akan muncul yaitu cara mengkoneksikan file storage di file laravel, ke public_html  solusinya menggunakan symlink
+   berikut caranya
+   
+   1. masusuk ke terminal cpanel
+   2. masuk ke file public_html dan pilih public laravelnya
+   
+   lalu jalankan kode seperti di bawah untuk mengkoneksikan storage di file laravel dan di public html
+   
+   harusnya program web laravel dah berjalan dengan normal sekian.
+   
+   [u5440919@srv50 ~]$ cd public_html
+    [u5440919@srv50 public_html]$ cd komerce
+    [u5440919@srv50 komerce]$ ln -s /home/u5440919/test_komerce/storage/app/public /home/u5440919/public_html/komerce/storage
+    [u5440919@srv50 komerce]$
