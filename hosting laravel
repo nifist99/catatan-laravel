@@ -16,3 +16,5 @@ symlink
 DB_DATABASE=u5440919_healthcare
 DB_USERNAME=u5440919_laravel
 DB_PASSWORD=maret1099
+
+https://stackoverflow.com/questions/50730143/laravel-storage-link-wont-work-on-production
