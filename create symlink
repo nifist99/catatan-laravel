@@ -1,0 +1,10 @@
+[u5440919@srv50 ~]$ cd public_html
+[u5440919@srv50 public_html]$ cd komerce
+[u5440919@srv50 komerce]$ ln -s /home/u5440919/test_komerce/storage/app/public /home/u5440919/public_html/komerce/storage
+[u5440919@srv50 komerce]$
+
+cara membuat symlink di web hosting
+1. masuk ke terminal
+2. masuk ke menu public_html lalu folder website kita disini nama yg saya gunakan public_html/komerce
+3. lalu buat symlinknya dengan kode ini ln -s /home/u5440919/test_komerce/storage/app/public /home/u5440919/public_html/komerce/storage
+   saya melakukan link di folder utama test_komerce/storage  menuju public_html/komerce/storage  agar saat kita upload imgae terdeteksi di tempilan
