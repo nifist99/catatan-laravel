@@ -31,3 +31,5 @@
     [u5440919@srv50 public_html]$ cd komerce
     [u5440919@srv50 komerce]$ ln -s /home/u5440919/test_komerce/storage/app/public /home/u5440919/public_html/komerce/storage
     [u5440919@srv50 komerce]$
+    
+    pastikan permission 755  agar gambar bisa di baca
