@@ -33,3 +33,4 @@
     [u5440919@srv50 komerce]$
     
     pastikan permission 755  agar gambar bisa di baca
+ln -s /home/u5488142/repositories/invitation_web/public /home/u5488142/public_html/daymahar.com  simlink server baru
