@@ -42,6 +42,6 @@ ln -s /home/u5488142/repositories/invitation_web/public/uploads /home/u5488142/p
 ln -s /home/u5488142/repositories/invitation_web/public/tema /home/u5488142/public_html/daymahar.com/tema
 
 
-ln -s /home/u5488142/repositories/invitation_web/public/web /home/u5488142/public_html/forba.id/web
-ln -s /home/u5488142/repositories/invitation_web/public/admin /home/u5488142/public_html/forba.id/admin
-ln -s /home/u5488142/repositories/invitation_web/storage/app/public /home/u5488142/public_html/forba.id/storage
+ln -s /home/u5488142/repositories/forum-komunitas/public/web /home/u5488142/public_html/forba.id/web
+ln -s /home/u5488142/repositories/forum-komunitas/public/admin /home/u5488142/public_html/forba.id/admin
+ln -s /home/u5488142/repositories/forum-komunitas/storage/app/public /home/u5488142/public_html/forba.id/storage
