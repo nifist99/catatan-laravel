@@ -34,6 +34,7 @@
     
     pastikan permission 755  agar gambar bisa di baca
 ln -s /home/u5488142/repositories/invitation_web/public /home/u5488142/public_html/daymahar.com  simlink server baru
+ln -s /home/u5488142/repositories/forum-komunitas/public /home/u5488142/public_html/forba.id
 
 ln -s /home/u5488142/repositories/invitation_web/public/web /home/u5488142/public_html/daymahar.com/web
 ln -s /home/u5488142/repositories/invitation_web/public/vendro /home/u5488142/public_html/daymahar.com/vendor
