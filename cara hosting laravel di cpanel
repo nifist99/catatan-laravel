@@ -47,3 +47,5 @@ ln -s /home/u5488142/repositories/forum-komunitas/public/admin /home/u5488142/pu
 ln -s /home/u5488142/repositories/forum-komunitas/storage/app/public /home/u5488142/public_html/forba.id/storage
 
 https://github.com/MatrixTM/MHDDoS
+
+composer config -g -- disable-tls true
