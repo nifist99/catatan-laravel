@@ -55,3 +55,9 @@ redirect https .htaccess
 rewriteCond %{HTTPS} !on
 rewriteCond %{HTTP:X-Forwarded-Proto} !https
 rewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+
+redirect to folder public .htaccess
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public/$1 [L]
