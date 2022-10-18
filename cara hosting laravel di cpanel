@@ -61,3 +61,5 @@ redirect to folder public .htaccess
 RewriteEngine on
 RewriteCond %{REQUEST_URI} !^public
 RewriteRule ^(.*)$ public/$1 [L]
+
+ln -s /home/u1602360/repositories/ppn-kasir/public /home/u1602360/public_html/ppn
