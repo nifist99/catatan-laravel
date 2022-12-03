@@ -66,4 +66,6 @@ ln -s /home/u1602360/repositories/ppn-kasir/public /home/u1602360/public_html/pp
 
  ln -s /home/u5488142/repositories/absenbima/storage/app/public /home/u5488142/repositories/absenbima/public/storage
  
-  ln -s /home/u1574971/repositories/nonscrap/nfscrap-main/storage/app/public /home/u1574971/repositories/nonscrap/nfscrap-main/public
+  ln -s /home/u1574971/repositories/nonscrap/nfscrap-main/storage/app/public /home/u1574971/repositories/nonscrap/nfscrap-main/public/storage
+  
+  ln -s /home/u1574971/repositories/nonscrap/nfscrap-main/public /home/u1602360/public_html/nonscrap.com
