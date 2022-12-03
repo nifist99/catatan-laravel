@@ -65,3 +65,5 @@ RewriteRule ^(.*)$ public/$1 [L]
 ln -s /home/u1602360/repositories/ppn-kasir/public /home/u1602360/public_html/ppn
 
  ln -s /home/u5488142/repositories/absenbima/storage/app/public /home/u5488142/repositories/absenbima/public/storage
+ 
+  ln -s /home/u1574971/repositories/nonscrap/nfscrap-main/storage/app/public /home/u1574971/repositories/nonscrap/nfscrap-main/public
