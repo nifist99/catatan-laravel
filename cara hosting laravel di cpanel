@@ -69,3 +69,5 @@ ln -s /home/u1602360/repositories/ppn-kasir/public /home/u1602360/public_html/pp
   ln -s /home/u1574971/repositories/nonscrap/nfscrap-main/storage/app/public /home/u1574971/repositories/nonscrap/nfscrap-main/public/storage
   
   ln -s /home/u1574971/repositories/nonscrap/nfscrap-main/public /home/u1574971/public_html/nonscrap.com
+  
+    ln -s /home/u1574971/repositories/whatspro/whatspro.id/storage/app/public /home/u1574971/repositories/whatspro/whatspro.id/public/storage
