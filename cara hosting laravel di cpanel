@@ -64,13 +64,18 @@ RewriteRule ^(.*)$ public/$1 [L]
 
 ln -s /home/u1602360/repositories/ppn-kasir/public /home/u1602360/public_html/ppn
 
- ln -s /home/u5488142/repositories/absenbima/storage/app/public /home/u5488142/repositories/absenbima/public/storage
+ln -s /home/u5488142/repositories/absenbima/storage/app/public /home/u5488142/repositories/absenbima/public/storage
  
-  ln -s /home/u1574971/repositories/nonscrap/nfscrap-main/storage/app/public /home/u1574971/repositories/nonscrap/nfscrap-main/public/storage
+ln -s /home/u1574971/repositories/nonscrap/nfscrap-main/storage/app/public /home/u1574971/repositories/nonscrap/nfscrap-main/public/storage
   
-  ln -s /home/u1574971/repositories/nonscrap/nfscrap-main/public /home/u1574971/public_html/nonscrap.com
+ln -s /home/u1574971/repositories/nonscrap/nfscrap-main/public /home/u1574971/public_html/nonscrap.com
   
     ln -s /home/u1574971/repositories/whatspro/whatspro.id/storage/app/public /home/u1574971/repositories/whatspro/whatspro.id/public/storage
     ln -s /home/u1574971/nonscrap/lite-maps-scrap/public /home/u1574971/public_html/maps-lite
     
 ln -s /home/u1574971/repositories/whatspro/whatspro.id/public /home/u1574971/public_html/whatspro.id
+
+ln -s /home/n1577365/kodeshop/KODESHOP-ADMIN/public /home/n1577365/public_html/admin.kodeshop.xyz
+ln -s /home/n1577365/aplikasi/KODESHOP-ADMIN/public /home/n1577365/public_html/admin.kodeshop.xyz
+ln -s /home/n1577365/kodeshop/KODESHOP-ADMIN/storage/app/public /home/n1577365/kodeshop/KODESHOP-ADMIN/public/storage
+ln -s /home/n1577365/aplikasi/KODESHOP-ADMIN/storage/app/public /home/n1577365/aplikasi/KODESHOP-ADMIN/public/storage
